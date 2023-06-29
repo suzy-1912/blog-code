@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <!-- TITRE DE LA PAGE-->
+    <title>Accueil</title>
+
+    <!-- MOBILE RESPONSIVE META -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta name="description" content="This is meta description">
+    <meta name="author" content="Themefisher">
+
+    <!-- PLUGINS : BOOTSTRAP, SLIDER, ICONS -->
+    <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bbck.woff2" style="font-display: optional;">
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:600%7cOpen&#43;Sans&amp;display=swap" media="screen">
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+
+    <!-- CSS PERSO -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <header class="sticky-top bg-white border-bottom border-default">
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-white">
+                <a class="navbar-brand" href="index.html">
+                    <!-- IMAGE DU LOGO -->
+                    <img class="img-fluid" width="150px" src="./images/post/dotblog.png" alt="LogBook">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+                    <i class="ti-menu"></i>
+                </button>
+
+                <!-- MENU -->
+                <div class="collapse navbar-collapse text-center" id="navigation">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Article<i class="ti-angle-down ml-1"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="chateau.html">Chateau de Versailles</a>
+                                <a class="dropdown-item" href="adopter.html">Adopter un chien</a>
+                                <a class="dropdown-item" href="recette.html">Idée de recette facile</a>
+                                <a class="dropdown-item" href="fete-de-lart.html">Fête de l'art</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!-- search -->
+                    <div class="search px-4">
+                        <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+                        <div class="search-wrapper">
+                            <form action="javascript:void(0)" class="h-100">
+                                <input class="search-box pl-4" id="search-query" name="s" type="search" placeholder="Type &amp; Hit Enter...">
+                            </form>
+                            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- /navigation -->
+
+    <section class="section">
+        <!-- CONTENEUR PRINCIPAL -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12  mb-5 mb-lg-0">
+
+                    <!-- BLOC ARTICLE AVEC CAROUSEL IMAGES -->
+                    <article class="row mb-5">
+                        <div class="col-md-4 mb-4 mb-md-0">
+                            <!-- CAROUSEL IMAGES -->
+                            <div class="post-slider slider-sm">
+                                <img loading="lazy" src="https://i.notretemps.com/1800x0/smart/2021/10/20/adopter-chien.jpg" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
+                                <img loading="lazy" src="https://img.passeportsante.net/1200x675/2021-05-06/i106625-signes-bonne-sante-chien.webp" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
+                                <img loading="lazy" src="https://static.cotemaison.fr/medias_10824/w_1815,h_1362,c_crop,x_99,y_0/w_1080,h_600,c_fill,g_north/v1456392403/10-conseils-pour-rendre-votre-chien-heureux_5542245.jpg" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <!-- TITRE + LIEN ARTICLE -->
+                            <h3 class="h5"><a class="post-title" href="adopter.html">Adopter un chien</a></h3>
+                            <!--  META DONNEES -->
+                            <ul class="list-inline post-meta mb-2">
+                                <li class="list-inline-item"><i class="ti-user mr-2"></i><b>Suzanne Finet</b>
+                                </li>
+                                <li class="list-inline-item">Date : <b>Juin 8, 2023</b></li>
+                                <li class="list-inline-item">Catégorie : <b></b>
+                                </li>
+                            </ul>
+                            <!-- RESUME -->
+                            <p>Vous cherche un chien a adopter  pas de problème cliquer sur le boutton juste en dessous.</p>
+                            <!-- LIEN ARTICLE -->
+                            <a href="adopter.html" class="btn btn-outline-primary">Lire l'article</a>
+                        </div>
+                    </article>
+
+
+                    <!-- BLOC ARTICLE AVEC IMAGE SEULE -->
+                    <article class="row mb-5">
+                        <div class="col-md-4 mb-4 mb-md-0">
+                            <div class="post-slider slider-sm">
+                                <!-- IMAGE SEULE -->
+                                <img loading="lazy" src="https://sf2.viepratique.fr/wp-content/uploads/sites/2/2015/03/Tagliatelles-au-bacon-Recette-TagliatelleChampignon.jpg" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <!-- TITRE + LIEN ARTICLE -->
+                            <h3 class="h5"><a class="post-title" href="recette.html">Idée de recette facile
+                            </a></h3>
+                            <!--  META DONNEES -->
+                            <ul class="list-inline post-meta mb-2">
+                                <li class="list-inline-item"><i class="ti-user mr-2"></i><b>Anna Deber</b>
+                                </li>
+                                <li class="list-inline-item">Date : <b>Mai 14, 2023</b></li>
+                                <li class="list-inline-item">Catégorie : <b>recette</b>
+                                </li>
+                            </ul>
+                            <!-- RESUME -->
+                            <p>Dans cet article vous trouverez des tas d'idée pour vos prochaine recette. Il y a de tous recette pour enfants, recette rapide, recette pour anniversaire...</p>
+                            <!-- LIEN ARTICLE -->
+                            <a href="recette.html" class="btn btn-outline-primary">Lire l'article</a>
+                        </div>
+                    </article>
+                    
+                    
+                    <!-- BLOC ARTICLE SANS IMAGES -->
+                    <article class="row mb-5">
+                        <div class="col-12">
+                            <!-- TITRE + LIEN ARTICLE -->
+                            <h3 class="h5"><a class="post-title" href="post-details-2.html">Fête de l'art</a></h3>
+                            <!--  META DONNEES -->
+                            <ul class="list-inline post-meta mb-2">
+                                <li class="list-inline-item"><i class="ti-user mr-2"></i><b>John Doe</b>
+                                </li>
+                                <li class="list-inline-item">Date : <b>Avril 25, 2023</b></li>
+                                <li class="list-inline-item">Catégorie : <b>art</b>
+                                </li>
+                            </ul>
+                            <!-- RESUME -->
+                            <p>La fête de l'art une réussite si vous voulez en savoir plus lisez l'article.</p> 
+                            <!-- LIEN ARTICLE -->
+                            <a href="fete-de-lart.html" class="btn btn-outline-primary">Lire l'article</a>
+                        </div>
+                    </article>
+
+
+                    <article class="row mb-5">
+                        <div class="col-md-4 mb-4 mb-md-0">
+                            <div class="post-slider slider-sm">
+                                <img loading="lazy" src="https://www.unjourdeplusaparis.com/wp-content/uploads/2019/03/chateau-de-versailles.jpg" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
+                                <img loading="lazy" src="https://media.admagazine.fr/photos/60c764ff6c35f96a3b06aa4c/4:3/w_632,h_474,c_limit/la_visite_virtuelle_du_jour___le_chateau_de_versailles_cover_1746.jpeg" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="h5"><a class="post-title" href="chateau.html">Chateau de Versailles</a></h3>
+                            <ul class="list-inline post-meta mb-2">
+                                <li class="list-inline-item"><i class="ti-user mr-2"></i>Rose Wertone<b></b>
+                                </li>
+                                <li class="list-inline-item">Date : <b>Juin 15, 2023</b></li>
+                                <li class="list-inline-item">Catégorie : <b>visite/culture</b>
+                                </li>
+
+                            </ul>
+                            <p>Venez visiter le chateau de versailles, des centaine de miroires, un jardin splendide... Venez visiter cette merveille de l'époque avec femme, enfants, neuveux, amis...</p><a href="chateau.html" class="btn btn-outline-primary">
+                                Lire l'article</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIED DE PAGE -->
+    <footer class="section-sm pb-0 border-top border-default">
+        <div class="container">
+            <div class="row justify-content-between">
+                <!-- IMAGE -->
+                <div class="col-md-3 mb-4">
+                    <a class="mb-4 d-block" href="index.html">
+                    </a>
+                </div>
+
+                <!-- LIENS -->
+                <div class="col-lg-2 col-md-3 col-6 mb-4">
+                    <h6 class="mb-4">Liens rapides</h6>
+                    <ul class="list-unstyled footer-list">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                    </ul>
+                </div>
+
+                <!-- ARTICLES -->
+                <div class="col-lg-2 col-md-3 col-6 mb-4">
+                    <h6 class="mb-4">Articles</h6>
+                    <ul class="list-unstyled footer-list">
+                        <li><a href="adopter.html">Adopter un chien</a></li>
+                        <li><a href="recette.html">Idée de recette facile</a></li>
+                        <li><a href="fete-de-art.html">Fête de l'art</a></li>
+                        <li><a href="chateaux.html">Chateau de Versailles</a></li>
+                    </ul>
+                </div>
+                
+                <!-- ABOUT -->
+                <div class="col-md-3 mb-4">
+                    <h6 class="mb-4">À propos</h6>
+                    <p>poster et connécter vous !</p>
+                </div>
+            </div>
+            <!-- FLECHE HAUT DE PAGE -->
+            <div class="scroll-top">
+                <a href="javascript:void(0);" id="scrollTop"><i class="ti-angle-up"></i></a>
+            </div>
+            <div class="text-center">
+                <!-- COPYRIGHT -->
+                <p class="content">&copy; 2023 - Désign &amp; Développement By YOUR NAME</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JS Plugins -->
+    <script src="plugins/jQuery/jquery.min.js"></script>
+    <script src="plugins/bootstrap/bootstrap.min.js" async></script>
+    <script src="plugins/slick/slick.min.js"></script>
+
+    <!-- Main Script -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
